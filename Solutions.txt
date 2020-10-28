@@ -1,0 +1,36 @@
+User Name
+arb@gmail.com
+Passsword
+1234
+
+1) on my navbar i have 4 icons on small screen i want them to stand side by side
+
+2) mail will be activated (kaanistemi1@gmail.com)
+
+3) when i make payment success toast shows up 2 times i will be one
+
+4) comment box position will be fixed(its responsive but short
+
+
+In products_detail.html
+
+form method="POST" action="{% url 'product_detail' product_id %}">{% csrf_token %}
+    <textarea rows="4" cols="120" name="com" placeholder="Enter comment here...">
+</textarea>
+    <br>
+    <input type="submit">
+</form>
+
+Change cols to make it larger.
+
+
+
+5)5)in adding products part i have select image button will be added beside that
+
+In custom_clearable_file_input.html
+
+
+
+
+
+
