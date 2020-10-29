@@ -1,19 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="db" uuid="91a43fd4-7ecd-49df-80cb-ed4270265a91">
+    <data-source source="LOCAL" name="db.sqlite3" uuid="c542aba7-f09d-4b14-92f6-7f4465c3a7b1">
       <driver-ref>sqlite.xerial</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
-      <jdbc-url>jdbc:sqlite:D:\Py Projects\babayani-final-project-master (6)\babayani-final-project-master\db.sqlite3</jdbc-url>
-      <libraries>
-        <library>
-          <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/Xerial SQLiteJDBC/3.25.1/license.txt</url>
-        </library>
-        <library>
-          <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/Xerial SQLiteJDBC/3.25.1/sqlite-jdbc-3.25.1.jar</url>
-        </library>
-      </libraries>
+      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/../../../db.sqlite3</jdbc-url>
     </data-source>
   </component>
 </project>
